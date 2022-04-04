@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-style {
+     background-color: rgb(20 , 244, 225) !important;
+        font-size: 12px !important;
+        font-weight: 550;
+        color: black !important;
+        text-decoration : none;
+        padding: 3px 20px 3px 20px ;
+        border-radius: 4px ;
+        margin : 4px;
+}
+
+.dropdown-item{
+    display: inline !important;
+}
+
+body {
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     background-image: linear-gradient(45deg, #7cd6fa, #46f1af);
+}
+
+header{
+   
+    background-color: rgb(0, 0, 0);
+}
+.banner{
+   background-image: url(Arya.gif);
+   
+   height : 18vw ;
+   background-position : top center ;
+   background-size : 50%;
+   background-repeat: no-repeat ;
+   background-attachment: fixed;
+}
+
+
+ nav { 
+      z-index: 10;
+      padding: 50px ;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap ;   
+      padding : 8px;
+      margin-top: 1px ;
+      background-color:rgb(0, 0, 0);
+      top:0px;
+      position: sticky;
+       
+    }
+
+    nav a{
+        background-color: rgb(20 , 244, 225);
+        font-size: 12px ;
+        font-weight: 550;
+        color: black ;
+        text-decoration : none;
+        padding: 3px 20px 3px 20px ;
+        border-radius: 4px ;
+        margin : 4px;
+       
+    }
+
+
+
+
+    
+
+nav a:hover , .btn-style:hover {
+    background-color: rgb(255, 145, 0) !important;
+    color: white !important;
+}
+
+
+.main{
+    padding:3vh;
+}
+
+.Qualification{
+    margin : 7vh ;
+    margin-top: 3vh ;
+}
+
+
+
+h2{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-weight: 500 ;
+    font-size: 20px;
+    padding: 2px 20px;
+    border : 3px rgb(255, 255, 255) solid ;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    background-color: rgb(255, 123, 0);
+    
+}
+
+.about{
+    margin-top: 3vh ;
+   background-color: rgba(255, 255, 255, 0.972);
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.profilepic{
+    float: left ;
+    margin-right : 15px;
+    margin-bottom: 10px;
+    width: 38vh;
+    border-radius: 6px;
+    border: 5px solid rgb(20 , 244, 225);
+}
+image{
+    display: inline;
+}
+
+h3{
+    padding: 10px;
+    font-weight:700 ;
+    color: rgb(255, 115, 0);
+    
+}
+
+p{
+     text-justify:auto;
+}
+
+#more , #more2 , #more3 , #more4 ,#more5 ,#more6{display: none;}
+
+.readmore,.readmore2 , .readmore3, .readmore4 ,.readmore5 ,.readmore6{
+    background-color: rgb(255, 208, 0);
+    font-size: 14px;
+    
+    border-radius: 8px;
+    border: 0px;
+}
+
+.readmore:hover , .readmore2:hover , .readmore3:hover , .readmore4:hover, .schoolbtn:hover ,.readmore5:hover ,.readmore6:hover{
+    background-color: rgb(255, 157, 0);
+    color: black;    
+} 
+
+#aboutme {
+    margin-right: auto;
+}
+
+.myfriendsbtn{
+    padding :3px 20px;
+    margin: 0px ;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255) ;
+    font-weight : 500;
+    background:rgb(255, 123, 0);
+    border-radius: 8px;
+    text-decoration: none ;
+
+}
+
+.seebtn{
+     padding :3px 20px;
+    margin-right : 10px ;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0) ;
+    font-weight: 540 ;
+    background: #00ffb3;
+    border-radius: 8px;
+    text-decoration: none ;
+    
+    float: right;
+}
+.seebtn:hover{
+     background-color: #ffae00;
+     color: rgb(0, 0, 0);
+}
+
+.pmyfriend{
+    margin-top: 15px;
+}
+
+.schoolbtn{
+    display: inline-block;
+     background-color: rgb(255, 208, 0);
+    font-size: 14px;
+    color: black;
+    font-weight: 550;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 0px;
+    padding: 2px 7px;
+}
+
+
+
+footer
+  {
+    text-decoration: none;
+    padding: 15px 30px ;
+    background-color: black ;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+
+.qualiblock{
+   
+    background-color: rgb(255, 255, 255) !important;
+    padding: 20px;
+    padding-top:0px ;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.quablock{
+    box-sizing: conten-box;
+    background-color: rgba(199, 249, 255, 0.808);
+    margin-top: 20px;
+    border-radius: 8px ;
+    padding :20px;
+    box-shadow: 0px 0px 5px rgb(133, 133, 133);
+  
+}
+
+.workblock{
+    
+    box-sizing: border-box ;
+    background-color: rgba(166, 255, 144, 0.808);
+    margin-top: 20px;
+    border-radius: 8px ;
+    padding :20px;
+    box-shadow: 0px 0px 5px rgb(133, 133, 133);
+}
+
+
+.intrest{
+    margin : 3vh ;
+    margin-bottom: 7vh ;
+}
+
+.intrest #about{
+    margin-left: 27px;
+}
+
+.intrestblk{
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 8px;
+    padding: 0px;
+    padding-bottom: 20px ;
+    margin: 0px;
+    margin-top: 20px;
+
+}
+
+.each-int{
+    padding-top: 20px !important;
+}
+
+
+/* @media screen and (min-width : 780px){
+    .quablock{
+        max-width: 350px ;
+    }
+} */
+
+
+
+@media screen and (max-width : 700px){
+    footer{
+        padding : 10px 8px !important;
+
+    }
+    i{
+      padding-left: 15px !important;
+    }
+}
+
+
+
+i{  text-decoration: none;
+    color: white;
+    padding-left:40px ;
+    text-decoration: none ;
+}
+
+i:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+@media screen and (min-width : 600px  ){
+    #aboutme {
+  margin-left : auto ;
+  margin-right: 5px !important ;
+}
+
+}
+
+
+
+
+@media screen and (max-width : 450px  ) {
+      
+    .banner{
+        background-size: 110% !important;       
+         height : 18vh;
+      
+    }
+
+     nav {
+       
+         display: flex;
+         flex-direction: row ;
+         flex-wrap: wrap ;
+        
+        padding : 5px !important;
+        margin-top:2px ;
+        background-color:rgb(8, 8, 8) !important ;
+    }
+
+    nav a{
+        background-color: rgb(20 , 244, 225);
+        color: black ;
+        font-size: 14px ;
+        font-weight: 500 !important;
+        text-decoration : none;
+        border-radius: 4px !important;
+
+    }
+    #opinions{
+  margin-left: 0 !important ;
+}
+}
+
+
+
+.skillsblock{
+    display: inline ;
+    border : 1px solid rgb(61, 60, 60);
+    font-weight: 550;
+    border-radius: 8px;
+    margin-top: 20px ;
+    margin-right: 20px ;
+    padding: 8px;
+    background-color: rgb(199, 249, 255, 0.808);
+}
+
+.carousel {
+
+    border: 2px solid white;
+    
+}
+.carousel-cell img{
+    max-width: 100%;
+}
+
+@media screen and (min-width:770px){
+    .carousel{
+        margin-top: 20px;
+    }
+}
+.carousel-cell {
+  
+  width: 100%;
+  margin-right: 10px;
+ 
+  border-radius: 5px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}

@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px 30px;
+    padding : 10px ;
+    font-size: 17px;
+    background-color: rgba(23, 243, 225, 0.466);
+}
+
+.container{
+    border: 1px solid ;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    padding: 20px ;
+}
+
+#back{
+    margin:10px ;
+    padding: 2px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(36, 41, 40);
+    border-radius: 5px;
+    border : 2px solid black ;
+}
+
+#back:hover{
+    background-color: rgb(78, 72, 72);
+}
+input[type="text"],input[type="number"],textarea{
+    width: 100% ;
+    margin:10px ;
+    padding: 10px ;
+}
+
+input[type="submit"]{
+    width:49%;
+    color: azure;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(112, 224, 0);
+}
+input[type="reset"]{
+    width:49%;
+    color: azure;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(112, 224, 0);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(69, 138, 0);
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(69, 138, 0);
+}
+
+fieldset{
+    background-color: rgba(167, 167, 167, 0.212);
+    border-radius: 5px;
+}
+
+h3+fieldset{
+    background-color: rgba(190, 190, 190, 0.212);
+    border-radius: 5px;
+}
